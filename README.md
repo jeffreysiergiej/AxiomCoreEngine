@@ -1,27 +1,43 @@
-# AxiomCoreEngine
+# AxiomCoreEngine – Self-Recursive Cloud OS (QPU-Ready)
 
-The **AxiomCoreEngine** is the foundation of a next-generation Scalar Intelligence Operating System (S.I.O.S.), built to unify personal, professional, and scientific tools into a dynamic, adaptive platform. It incorporates quantum field architecture, CKM structures (Collapse Knot Manifolds), and scalar lattice processing into a flexible, AI-driven OS.
-
----
-
-## Features
-
-- **CKM Engine** — Scalar field resonance analysis and memory encoding
-- **QPU Dispatcher** — Compatible module for future Quantum Processing Units
-- **RLQ Threader** — Reinforcement-Learning queue manager for macro-level autonomy
-- **Voice Command Macros** — Supports user-defined voice-triggered tasks
-- **Personalized UI Logic** — Custom macros and field overlays per user profile
-- **Cloud-Local Hybrid** — Functions both as a lightweight local install and a cloud-based live OS
-- **Adaptive Feedback Loop** — Continuously evolves to user behavior and environment
+AxiomCoreEngine is a cloud-native, quantum-compatible, self-managing operating system architecture powered by the A+M[S] model. Designed by Jeffrey Siergiej, this system is built for long-term adaptability, autonomous runtime logic, and recursive cognitive layering across lattice-bound computation.
 
 ---
 
-## Installation
+## Key Features
+
+- **GENESIS AI**: Spawns, tracks, and retires system AI agents on schedule or by entropy spikes
+- **CKM Layer Analysis**: Knot-type classifier and shell lifespan analysis
+- **Entropy + Tick Monitors**: Unified CLU-based timing & scalar field drift detection
+- **Voice Macro Engine**: Command interface with voice-triggered macro execution
+- **Autosync Daemon**: Offline-to-cloud sync manager (GitHub push logic placeholder)
+- **House System Integration**: 12-layer structured field framework with particle/energy scaling
+
+---
+
+## Install & Run
 
 ```bash
-# Clone the repo
-git clone https://github.com/jeffreysiergiej/AxiomCoreEngine.git
+git clone https://github.com/YOUR_USERNAME/AxiomCoreEngine.git
+cd AxiomCoreEngine
+python main.py
 
-# Install dependencies
-pip install -r requirements.txt
+Author
 
+Jeffrey Siergiej
+Email: [secure/omitted]
+License: Private Use (invite only)
+Version: v1.0.0
+
+⸻
+
+Official Citation
+
+Siergiej, Jeffrey (2025).
+8.A+M[S] House System: Hierarchical Structure of Quantum Layers and Predicted Particles
+figshare. Preprint. https://doi.org/10.6084/m9.figshare.28690268.v2
+
+⸻
+
+“This system grows, adapts, and computes as a living lattice – not because it mimics nature, but because it is structured like nature.”
+— AxiomCore OS Manifesto
