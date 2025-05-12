@@ -1,14 +1,22 @@
-# File: auto_commit_logger.py
+# auto_commit_logger.py
+
 import os
-import subprocess
+import time
 from datetime import datetime
 
-def auto_commit(repo_path="."):
-    os.chdir(repo_path)
-    subprocess.run(["git", "add", "system_health_log.txt"])
-    commit_msg = f"Auto-log system health at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-    subprocess.run(["git", "commit", "-m", commit_msg])
-    subprocess.run(["git", "push"])
+def log_commit_event(message):
+    log_path = "commit_log.txt"
+    timestamp = datetime.utcnow().isoformat() + "Z"
+    with open(log_path, "a") as f:
+        f.write(f"{timestamp} - {message}\n")
 
-if __name__ == "__main__":
-    auto_commit()
+def start_commit_loop(interval=3600):
+    print("[AUTO-COMMIT] Loop is active. Checking every", interval, "seconds.")
+    while True:
+        # Example check: log that we're alive
+        log_commit_event("Auto-commit heartbeat.")
+        
+        # Future: add Git commands here (or link to GitHub API)
+        # os.system("git add . && git commit -m 'Auto-commit' && git push")
+
+        time.sleep(interval)
