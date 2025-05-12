@@ -2,7 +2,7 @@
 RLQ Threading Module
 Manages Recursive Logic Quantum (RLQ) thread spawning, execution tracking, and entropy-based collapse.
 """
-from rlq_memory_model import RLQMemoryCore
+from rlq_memory_model import RLQMemoryModel
 
 # Initialize memory storage
 memory_core = RLQMemoryCore()
