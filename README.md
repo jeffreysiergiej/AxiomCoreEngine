@@ -1,23 +1,27 @@
 # AxiomCoreEngine
 
-**Version:** v1.0-private-invite  
-**License:** Private Access – [View EULA](AxiomCoreEngine_EULA_v1.0-private-invite.pdf)
+The **AxiomCoreEngine** is the foundation of a next-generation Scalar Intelligence Operating System (S.I.O.S.), built to unify personal, professional, and scientific tools into a dynamic, adaptive platform. It incorporates quantum field architecture, CKM structures (Collapse Knot Manifolds), and scalar lattice processing into a flexible, AI-driven OS.
 
-AxiomCoreEngine is a cloud-native, quantum-compatible operating system engineered around CKM (Collapse Knot Manifold), PETI (Phase-Entropy Twist Index), and recursive logic threading. It integrates classical computing logic with emerging QPU technologies and voice-driven macro systems.
+---
 
 ## Features
-- Voice-controlled personal assistant with entropy-aware task planning
-- CKM echo shell tracking and PETI harmonics for predictive modeling
-- Dynamic RLQ threading and memory field registration
-- Local and cloud-based hybrid execution (offline mode supported)
-- Quantum backend integration (Qiskit, Braket-ready)
 
-## Deployment
-- Run locally via Python or Jupyter/Colab notebook
-- Recommended: GitHub deployment for codebase, Colab for cloud runtime
+- **CKM Engine** — Scalar field resonance analysis and memory encoding
+- **QPU Dispatcher** — Compatible module for future Quantum Processing Units
+- **RLQ Threader** — Reinforcement-Learning queue manager for macro-level autonomy
+- **Voice Command Macros** — Supports user-defined voice-triggered tasks
+- **Personalized UI Logic** — Custom macros and field overlays per user profile
+- **Cloud-Local Hybrid** — Functions both as a lightweight local install and a cloud-based live OS
+- **Adaptive Feedback Loop** — Continuously evolves to user behavior and environment
 
-## Licensing
-This project is free for personal use (invite-only phase). Commercial use or redistribution requires a signed license agreement.
+---
 
-Read the full [EULA](AxiomCoreEngine_EULA_v1.0-private-invite.md)
+## Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/jeffreysiergiej/AxiomCoreEngine.git
+
+# Install dependencies
+pip install -r requirements.txt
 
