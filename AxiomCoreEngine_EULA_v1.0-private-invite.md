@@ -1,0 +1,82 @@
+# AxiomCoreEngine (TM) End User License Agreement (EULA)
+
+**Version:** v1.0-private-invite
+
+
+SECTION 1 - SCOPE AND INTENT
+
+This agreement governs the use of the AxiomCoreEngine Operating System (OS), including all connected AI, CKM, PETI, QPU, voice, or cloud-based modules (-The System-).
+
+By accessing, deploying, cloning, executing, installing, or interacting with AxiomCoreEngine in any form, the User agrees to the terms below.
+
+SECTION 2 - FREE PERSONAL USE (INVITE-ONLY INITIAL STAGE)
+
+- The System is provided free of charge for personal, private, and non-commercial use-by invitation only during its early deployment phase.
+- Free usage includes:
+  - Voice AI interaction
+  - Personal macro creation
+  - CKM field visualization
+  - Local installation or cloud-hosted use under the control and oversight of the original license holder (Jeff Siergiej)
+- During this phase, access is limited to testers, collaborators, or reviewers explicitly approved by the license holder.
+- Early users may be invited to:
+  - Report issues
+  - Suggest improvements
+  - Participate in structured feedback sessions
+- All invited users are bound by the same restrictions in Sections 3 and 4 and may not share, clone, or redistribute the system without express permission.
+
+SECTION 3 - COMMERCIAL & COLLABORATIVE ACCESS
+
+3.1 Company or Institutional Access
+- Any business, educational institution, startup, or nonprofit wishing to:
+  - Train staff using AxiomCoreEngine
+  - Integrate with external platforms
+  - Build on the architecture
+  Must enter into a Paid Access Agreement with the creator (Jeff Siergiej).
+
+3.2 Developer Contributions
+- Developers may request access to contribute modules.
+- All contributions become part of AxiomCoreEngine and may not be forked without explicit approval.
+
+3.3 Monetization Gateway
+- The creator retains full rights to monetize:
+  - API access
+  - Private cloud environments
+  - Pre-trained systems
+  - Commercial QPU integration or entanglement simulation modules
+
+SECTION 4 - RESTRICTIONS
+
+You may not:
+- Copy, sell, rent, license, redistribute, or clone AxiomCoreEngine or any derivative for profit without a signed license extension.
+- Reverse engineer, decompile, or extract proprietary logic including PETI, KMPS, CKM loops, RLQ thread models, and QPU mappings.
+- Use the platform to create a competing system or product.
+
+SECTION 5 - INTELLECTUAL PROPERTY
+
+- All components of AxiomCoreEngine-including concepts, equations, structures, outputs, diagrams, and data transformations-are the intellectual property of the creator (Jeff Siergiej).
+- Any public-facing or academic usage must cite the system and include linkbacks to the original licensing repository.
+
+SECTION 6 - TERMINATION
+
+You reserve the right to revoke access to any party who:
+- Violates this agreement
+- Attempts unauthorized forking or modification
+- Uses the system in an unethical, exploitative, or malicious capacity
+
+SECTION 7 - CLOUD DEPLOYMENT TERMS
+
+- Cloud-hosted instances of AxiomCoreEngine may be accessed freely by the original license holder.
+- Other users accessing AxiomCoreEngine in a hosted space may be subject to usage tiers or paid onboarding in the future.
+
+SECTION 8 - LIABILITY AND SUPPORT
+
+This software is provided -as-is- without warranty. You are not liable for:
+- Data loss
+- Failed predictions
+- QPU computation costs or time delays
+- Misuse of quantum or recursive systems by third parties
+
+Signed:
+License Holder: Jeff Siergiej
+Effective Date: Effective upon first use
+License ID: AXM-EULA-V1.0-PRIVATE-INVITE
