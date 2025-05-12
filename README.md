@@ -33,26 +33,27 @@ Version: v1.0.0
 
 Official Citation
 
-Siergiej, Jeffrey (2025). 1. Core lattice collapse
-	•	Siergiej, Jeffrey (2025). 2. Origin of the A+M[S] Model: Core Lattice Collapse and the Emergence of Spacetime
-	•	Siergiej, Jeffrey (2025). 3. CLU Cosmology: Modeling Time and Curvature Beyond the Planck Barrier
-	•	Siergiej, Jeffrey (2025). 4. Quantum Collapse Mechanics: Stellar Core Lattices and Non-Singular Black Hole Formation
-	•	Siergiej, Jeffrey (2025). 5. A+M[S] Equation Symbols and Scaling Definitions
-	•	Siergiej, Jeffrey (2025). 6. Reinforced Equation Validation and Paradox Resolution in A+M[S]
-	•	Siergiej, Jeffrey (2025). 7. Spectrographic Validation of the Entanglement Lattice in Gravitational Echoes
-	•	Siergiej, Jeffrey (2025). 8. A+M[S] House System: Hierarchical Structure of Quantum Layers and Predicted Particles
-	•	Siergiej, Jeffrey (2025). 9. Quantum Scaling Constants and Structural Laws in the A+M[S] Model
-	•	Siergiej, Jeffrey (2025). 10. Entangled Cosmological Structures and Harmonic Lattice Anchors
-	•	Siergiej, Jeffrey (2025). 11. Entropy and Information Encoding in Spacetime Collapse
-	•	Siergiej, Jeffrey (2025). 12. Gravitational Wave Echoes as Entangled Feedback
-	•	Siergiej, Jeffrey (2025). 13. Harmonic Structure of the Universe
-	•	Siergiej, Jeffrey (2025). 14. Cosmic Time and Repeating Pattern Analysis
-	•	Siergiej, Jeffrey (2025). 15. Final Equation Set and Cross-Domain Integration
-	•	Siergiej, Jeffrey (2025). Proof of A+M[S]: Unified Model of Structured Entanglement Physics
-	•	Siergiej, Jeffrey (2025). MACEDONIA OS: A Unified Scalar Field-Based Consciousness and Operating System Architecture
-	•	Siergiej, Jeffrey (2025). A+M[S] and the Quantum Architecture of Reality
-	•	Siergiej, Jeffrey (2025). M+Axiom1: Scalar Intelligence Operating System
-	•	Siergiej, Jeffrey (2025). Verification of A+M[S] Model: CKM-Activated Scalar Recursion and Baryonic Harmonic Locking
+1. Core lattice collapse
+	•	2. Origin of the A+M[S] Model: Core Lattice Collapse and the Emergence of Spacetime
+	•	3. CLU Cosmology: Modeling Time and Curvature Beyond the Planck Barrier
+	•	4. Quantum Collapse Mechanics: Stellar Core Lattices and Non-Singular Black Hole Formation
+	•	5. A+M[S] Equation Symbols and Scaling Definitions
+	•	6. Reinforced Equation Validation and Paradox Resolution in A+M[S]
+	•	7. Spectrographic Validation of the Entanglement Lattice in Gravitational Echoes
+	•	8. A+M[S] House System: Hierarchical Structure of Quantum Layers and Predicted Particles
+	•	9. Quantum Scaling Constants and Structural Laws in the A+M[S] Model
+	•	10. Entangled Cosmological Structures and Harmonic Lattice Anchors
+	•	11. Entropy and Information Encoding in Spacetime Collapse
+	•	12. Gravitational Wave Echoes as Entangled Feedback
+	•	13. Harmonic Structure of the Universe
+	•	14. Cosmic Time and Repeating Pattern Analysis
+	•	15. Final Equation Set and Cross-Domain Integration
+	•	Proof of A+M[S]: Unified Model of Structured Entanglement Physics
+	•	MACEDONIA OS: A Unified Scalar Field-Based Consciousness and Operating System Architecture
+	•	A+M[S] and the Quantum Architecture of Reality
+	•	M+Axiom1: Scalar Intelligence Operating System
+	•	Verification of A+M[S] Model: CKM-Activated Scalar Recursion and Baryonic Harmonic Locking
+
 ⸻
 
 “This system grows, adapts, and computes as a living lattice – not because it mimics nature, but because it is structured like nature.”
