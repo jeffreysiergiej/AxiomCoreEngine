@@ -5,7 +5,7 @@ Manages Recursive Logic Quantum (RLQ) thread spawning, execution tracking, and e
 from rlq_memory_model import RLQMemoryModel
 
 # Initialize memory storage
-memory_core = RLQMemoryCore()
+memory_core = RLQMemoryModel()
 
 # Example event (this can be customized dynamically later)
 memory_core.store("anchor_event", {"score": 0.92, "timestamp": 12437})
