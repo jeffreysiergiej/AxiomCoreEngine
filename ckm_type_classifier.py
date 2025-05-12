@@ -37,7 +37,7 @@ def save_results(df, path=OUTPUT_FILE):
         for _, row in df.iterrows():
             f.write(f"{datetime.utcnow().isoformat()},{row['knot_id']},{row['knot_type']}\n")
 
-if __name__ == "__main__":
+def main():
     data = load_knot_data()
     if not data.empty:
         result = classify_knot_types(data)
@@ -45,4 +45,6 @@ if __name__ == "__main__":
         print(f"[INFO] Classified {len(result)} knots.")
     else:
         print("[INFO] No data to classify.")
-        2025-05-12T17:23:11Z,K_023,Torus
+
+if __name__ == "__main__":
+    main()
