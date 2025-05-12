@@ -1,6 +1,6 @@
 """
 RLQ Threading Module
-Manages Recursive Logic Quantum (RLQ) thread states and memory
+Manages Recursive Logic Quantum (RLQ) threading, execution tracking, and entropy-based collapse.
 """
 
 from rlq_memory_model import RLQMemoryModel
