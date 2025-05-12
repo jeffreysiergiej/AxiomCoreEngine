@@ -1,0 +1,145 @@
+{
+  "ai_agents": [
+    {
+      "name": "Genesis",
+      "status": "active",
+      "purpose": "Spawns and monitors all other AI threads",
+      "spawned_by": "bootloader",
+      "last_heartbeat": "pending"
+    },
+    {
+      "name": "RLQHandler",
+      "status": "active",
+      "purpose": "Manages recursive lattice quantum threads",
+      "spawned_by": "Genesis",
+      "last_heartbeat": "pending"
+    },
+    {
+      "name": "EntropyMonitor",
+      "status": "active",
+      "purpose": "Tracks entropy spikes and RLQ thread divergence",
+      "spawned_by": "Genesis",
+      "last_heartbeat": "pending"
+    },
+    {
+      "name": "VoiceMacros",
+      "status": "active",
+      "purpose": "Parses and executes voice-triggered macros",
+      "spawned_by": "Genesis",
+      "last_heartbeat": "pending"
+    },
+    {
+      "name": "CKMWatcher",
+      "status": "active",
+      "purpose": "Detects and monitors CKM knot activity",
+      "spawned_by": "Genesis",
+      "last_heartbeat": "pending"
+    },
+    {
+      "name": "TickClock",
+      "status": "active",
+      "purpose": "Runs CLU tick logic and synchronizes time layers",
+      "spawned_by": "Genesis",
+      "last_heartbeat": "pending"
+    },
+    {
+      "name": "EchoDaemon",
+      "status": "active",
+      "purpose": "Tracks echo shell propagation and resonance loops",
+      "spawned_by": "Genesis",
+      "last_heartbeat": "pending"
+    },
+    {
+      "name": "AutoSync",
+      "status": "active",
+      "purpose": "Handles GitHub commits and live logs",
+      "spawned_by": "Genesis",
+      "last_heartbeat": "pending"
+    },
+    {
+      "name": "FractalStitcher",
+      "status": "standby",
+      "purpose": "Rebuilds partial echoes from collapsed RLQ paths",
+      "spawned_by": "Genesis",
+      "last_heartbeat": "pending"
+    },
+    {
+      "name": "ThermalBalancer",
+      "status": "standby",
+      "purpose": "Modulates tick pressure and field temperature across AI layers",
+      "spawned_by": "Genesis",
+      "last_heartbeat": "pending"
+    },
+    {
+      "name": "QuantumProfiler",
+      "status": "standby",
+      "purpose": "Benchmarks QPU compatibility and offload readiness",
+      "spawned_by": "Genesis",
+      "last_heartbeat": "pending"
+    },
+    {
+      "name": "MemoryWeaver",
+      "status": "standby",
+      "purpose": "Manages RLQ memory sheaths across temporal cycles",
+      "spawned_by": "Genesis",
+      "last_heartbeat": "pending"
+    },
+    {
+      "name": "EntanglementTracker",
+      "status": "standby",
+      "purpose": "Monitors quantum entanglement chains and stability",
+      "spawned_by": "Genesis",
+      "last_heartbeat": "pending"
+    },
+    {
+      "name": "PETIMapper",
+      "status": "standby",
+      "purpose": "Maps PETI harmonic field structures for resonance forecasting",
+      "spawned_by": "Genesis",
+      "last_heartbeat": "pending"
+    },
+    {
+      "name": "NeuralSync",
+      "status": "standby",
+      "purpose": "Interfaces with biological coherence data (biofeedback, wearable I/O)",
+      "spawned_by": "Genesis",
+      "last_heartbeat": "pending"
+    },
+    {
+      "name": "CKMCompiler",
+      "status": "standby",
+      "purpose": "Compiles knot geometry into activation maps",
+      "spawned_by": "Genesis",
+      "last_heartbeat": "pending"
+    },
+    {
+      "name": "MacroLearner",
+      "status": "standby",
+      "purpose": "Learns from user behavior and auto-generates helpful macros",
+      "spawned_by": "Genesis",
+      "last_heartbeat": "pending"
+    },
+    {
+      "name": "VisualEchoNode",
+      "status": "standby",
+      "purpose": "Creates visual overlays of echo patterns for analysis",
+      "spawned_by": "Genesis",
+      "last_heartbeat": "pending"
+    },
+    {
+      "name": "FieldTuner",
+      "status": "standby",
+      "purpose": "Recalibrates scalar fields to match observed tick behavior",
+      "spawned_by": "Genesis",
+      "last_heartbeat": "pending"
+    },
+    {
+      "name": "RedundancyNet",
+      "status": "standby",
+      "purpose": "Maintains AI failover backups and mirror threads",
+      "spawned_by": "Genesis",
+      "last_heartbeat": "pending"
+    }
+  ],
+  "registry_created": "2025-05-12T00:00:00Z"
+}
