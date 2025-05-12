@@ -8,7 +8,7 @@ from rlq_memory_model import RLQMemoryModel
 memory_core = RLQMemoryModel()
 
 # Example event (this can be customized dynamically later)
-memory_core.store("anchor_event", {"score": 0.92, "timestamp": 12437})
+memory_core.update("anchor_event", {"score": 0.92, "timestamp": 12437})
 retrieved = memory_core.recall("anchor_event")
 print("Recalled:", retrieved)
 def initialize_rlq_thread(state_vector):
