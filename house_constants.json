@@ -1,0 +1,53 @@
+{
+  "house_levels": [
+    "House 0 – Core Planck Node",
+    "House 1 – Sub-Fractal Atoms",
+    "House 2 – Prime Quantum Scaffold",
+    "House 3 – Emergent Standard Model",
+    "House 4 – Molecular Harmonic",
+    "House 5 – Biological Lattice",
+    "House 6 – Neurological Field",
+    "House 7 – Organismal Shell",
+    "House 8 – Planetary Entanglement",
+    "House 9 – Stellar Lattice Mesh",
+    "House 10 – Galactic Harmonic Chain",
+    "House 11 – Universal Echo Layer"
+  ],
+  "emergent_particles": [
+    "Photon",
+    "Electron",
+    "Muon",
+    "Tau",
+    "Up Quark",
+    "Down Quark",
+    "Strange Quark",
+    "Charm Quark",
+    "Top Quark",
+    "Bottom Quark",
+    "Gluon",
+    "Z Boson",
+    "W Boson",
+    "Higgs Boson",
+    "Graviton (hypothetical)"
+  ],
+  "house_energy_scale": {
+    "House 0": "1.22e+19 GeV",
+    "House 1": "1.0e+16 GeV",
+    "House 2": "1.0e+13 GeV",
+    "House 3": "91–125 GeV",
+    "House 4": "1–10 eV",
+    "House 5": "1e-2 to 1e+2 eV",
+    "House 6": "1e-3 eV",
+    "House 7": "1e-4 eV",
+    "House 8": "1e-9 eV",
+    "House 9": "1e-14 eV",
+    "House 10": "1e-18 eV",
+    "House 11": "1e-21 eV"
+  },
+  "source": {
+    "author": "Jeffrey Siergiej",
+    "title": "8.A+M[S] House System",
+    "doi": "https://doi.org/10.6084/m9.figshare.28690268.v2",
+    "year": "2025"
+  }
+}
