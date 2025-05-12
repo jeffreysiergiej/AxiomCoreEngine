@@ -1,24 +1,33 @@
-# Byte-compiled / optimized / DLL files
+# === Secrets and API Keys ===
+.env
+token.txt
+voice_profile.key
+
+# === Runtime Logs ===
+*_log.csv
+*.checkpoint
+*.autosave
+
+# === Python Cache ===
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
+# === Jupyter Checkpoints ===
+.ipynb_checkpoints/
 
-# Distribution / packaging
-build/
-dist/
-*.egg-info/
+# === Local Dev Tools ===
+.vscode/
+.idea/
 
-# Virtual environments
-venv/
-env/
-ENV/
-
-# System files
+# === System Junk ===
 .DS_Store
 Thumbs.db
 
-# VS Code
-.vscode/
+# === Optional JSON Filters ===
+# Uncomment to exclude local state .json files
+# tick_metrics.json
+# macro_commands.json
+# genesis_registry.json
+
+# === Archive ZIPs ===
+*.zip
