@@ -1,0 +1,20 @@
+[
+  {
+    "id": "CKM_001",
+    "position": [10, 50],
+    "energy": 0.83,
+    "phase": 1.47
+  },
+  {
+    "id": "CKM_002",
+    "position": [15, 55],
+    "energy": 0.91,
+    "phase": 2.15
+  },
+  {
+    "id": "CKM_003",
+    "position": [20, 60],
+    "energy": 0.74,
+    "phase": 1.23
+  }
+]
