@@ -41,3 +41,4 @@ if __name__ == "__main__":
         print(f"[INFO] Logged {len(lifespan_results)} echo lifespan entries.")
     else:
         print("[INFO] No echo data to process.")
+        2025-05-12T17:13:02Z,M_104,18.24
