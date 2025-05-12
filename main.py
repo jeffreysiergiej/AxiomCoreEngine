@@ -1,7 +1,7 @@
 # main.py – AxiomCoreEngine Launcher
 
 from rlq_threader import initialize_rlq_thread
-from rlq_memory_model import RLQMemoryCore
+from rlq_memory_model import RLQMemoryModel
 from ckm_engine import run_ckm_sim
 from qpu_dispatcher import QPUSimulator
 
