@@ -40,3 +40,58 @@ pip install -r requirements.txt
 
 # 3. Run the engine
 python main.py
+
+AI Agents Map
+Name
+Status
+Function
+Genesis
+Active
+Spawns + monitors all agents
+RLQHandler
+Active
+Manages recursive lattice threads
+EntropyMonitor
+Active
+Detects decoherence
+VoiceMacros
+Active
+Executes voice commands
+CKMWatcher
+Active
+Monitors knot field activity
+TickClock
+Active
+Tracks CLU ticks
+EchoDaemon
+Active
+Follows echo shell propagation
+AutoSync
+Active
+Commits updates + logs
+(12 others standby in genesis_registry.json)
+
+Outputs
+File
+Description
+main.py
+Core OS logic + AI boot
+house_constants.py/json
+House energy scales + SM particles
+genesis_registry.json
+Tracks all AI agents
+tick_metrics.json
+CLU + sync state
+macro_commands.json
+Voice macro triggers
+ckm_structure.json
+Active knot mapping
+.gitignore
+Excludes private logs, keys, etc.
+
+Citations
+Siergiej, Jeffrey (2025).
+Full publication set: Figshare Series Index
+
+“This system grows, adapts, and computes as a living lattice –
+not because it mimics nature, but because it is structured like nature.”
