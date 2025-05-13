@@ -1,4 +1,4 @@
-from src.axiomcore.main import your_function_name
+from src.axiomcore.main import add_two_numbers
 
-def test_example():
-    assert your_function_name() == expected_value
+def test_add_two_numbers():
+    assert add_two_numbers(2, 3) == 5
