@@ -1,5 +1,9 @@
 # AxiomCoreEngine OS – Scalar AI Architecture (v1.0.0)
+## Build Status
 
+![Python package](https://github.com/jeffreysiergiej/AxiomCoreEngine/actions/workflows/python-package.yml/badge.svg)
+![Bandit Security Scan](https://github.com/jeffreysiergiej/AxiomCoreEngine/actions/workflows/bandit-scan.yml/badge.svg)
+![CodeQL Analysis](https://github.com/jeffreysiergiej/AxiomCoreEngine/actions/workflows/codeql-analysis.yml/badge.svg)
 **Author:** Jeffrey Siergiej  
 **License:** Private (Invite-only)  
 **Status:** Active Development  
