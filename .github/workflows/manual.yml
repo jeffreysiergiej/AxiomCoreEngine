@@ -1,4 +1,3 @@
-# File: .github/workflows/manual.yml
 name: Manual Workflow
 
 on:
@@ -8,5 +7,5 @@ jobs:
   run-manual:
     runs-on: ubuntu-latest
     steps:
-    - name: Echo Manual Run
-      run: echo "This workflow was triggered manually."
+      - name: Manual trigger confirmation
+        run: echo "This manual workflow was triggered successfully."
