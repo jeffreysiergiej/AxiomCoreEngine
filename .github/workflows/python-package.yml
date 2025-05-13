@@ -25,7 +25,7 @@ jobs:
         echo "black" > requirements.txt
         pip install -r requirements.txt || true
 
-    - name: Run tests
-  run: |
-    export PYTHONPATH=./src
-    pytest
+       - name: Run tests
+      run: |
+        export PYTHONPATH=$PYTHONPATH:./src
+        pytest
