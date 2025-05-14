@@ -1,10 +1,3 @@
-import io, sys
-from src.axiomcore.protocol_handler import handle_qpc
-
-def test_handle_qpc():
-    captured_output = io.StringIO()
-    sys.stdout = captured_output
-    handle_qpc("PING")
-    sys.stdout = sys.__stdout__
-    output = captured_output.getvalue()
-    assert "PONG" in output or output.strip() != "", "Expected output missing from handle_qpc"
+def handle_qpc(command: str):
+    if command == "PING":
+        print("PONG")
