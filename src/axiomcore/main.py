@@ -1,6 +1,13 @@
-def add_two_numbers(a, b):
-    """Securely add two numbers"""
-    try:
-        return int(a) + int(b)
-    except (ValueError, TypeError):
-        return 0
+from dotenv import load_dotenv
+load_dotenv()
+
+import os
+print("PYTHONPATH is set to:", os.getenv("PYTHONPATH"))
+
+from genesis_ai import genesis_daemon
+from rlq_memory_model import RLQMemoryModel
+from auto_commit_logger import start_commit_loop
+
+def main():
+    print("=== AxiomCoreEngine Boot ===")
+    ...
