@@ -9,5 +9,5 @@ description = "Scalar AI Architecture Runtime"
 authors = [
     { name="Jeffrey Siergiej" }
 ]
-requires-python = ">=3.11"
+requires-python = ">=3.11.*"
 dependencies = []
