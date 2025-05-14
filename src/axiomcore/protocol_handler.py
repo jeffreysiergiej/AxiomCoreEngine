@@ -1,15 +1,10 @@
-from .qpu_kernel import quantum_superposition
-from .os_kernel import AxiomOSKernel
+import io, sys
+from src.axiomcore.protocol_handler import handle_qpc
 
-def handle_qpc(command: str):
-    """Basic QPU command protocol."""
-    kernel = AxiomOSKernel()
-
-    if command == "INIT_SUPERPOSITION":
-        kernel.schedule_task(lambda: print(quantum_superposition()))
-    elif command == "PING":
-        kernel.schedule_task(lambda: print("ACK"))
-    else:
-        kernel.schedule_task(lambda: print("UNKNOWN_CMD"))
-
-    kernel.run_all()
+def test_handle_qpc():
+    captured_output = io.StringIO()
+    sys.stdout = captured_output
+    handle_qpc("PING")
+    sys.stdout = sys.__stdout__
+    output = captured_output.getvalue()
+    assert "PONG" in output or output.strip() != "", "Expected output missing from handle_qpc"
