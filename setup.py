@@ -9,5 +9,5 @@ setup(
     package_dir={"": "src"},
     include_package_data=True,
     install_requires=[],
-    python_requires=">=3.8",
+    python_requires=">=3.11.*"
 )
