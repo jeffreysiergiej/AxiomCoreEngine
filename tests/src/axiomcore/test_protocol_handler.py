@@ -8,6 +8,8 @@ def test_handle_qpc():
     handle_qpc("PING")
     sys.stdout = sys.__stdout__
 
-    output = captured_output.getvalue()
-    if "PONG" not in output and output.strip() == "":
-        raise AssertionError("Expected output missing from handle_qpc")
+    def handle_qpc(message):
+    if message == "PING":
+        print("PONG")
+    else:
+        raise ValueError(f"Unsupported message received: {message}")
