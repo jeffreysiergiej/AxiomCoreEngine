@@ -1,7 +1,8 @@
-numpy
-matplotlib
-scipy
-pandas
-notebook
-ipython
-pytest
+numpy==1.26.4
+matplotlib==3.8.4
+scipy==1.13.0
+pandas==2.2.2
+notebook==7.1.3
+ipython==8.24.0
+pytest==8.1.1
+bandit==1.7.7
