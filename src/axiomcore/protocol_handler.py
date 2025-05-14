@@ -1,12 +1,16 @@
-import io, sys
-
-def handle_qpc(command: str):
-    print("PONG") if command == "PING" else print("UNKNOWN")
-
 def handle_qpc(message):
-    if message == "PING":
-        print("PONG")
-    elif message == "STATUS":
-        print("ALIVE")
+    """Respond to basic QPC protocol messages."""
+    if not isinstance(message, str):
+        raise TypeError("Message must be a string")
+
+    response = None
+
+    if message.upper() == "PING":
+        response = "PONG"
+    elif message.upper() == "STATUS":
+        response = "ALIVE"
     else:
         raise ValueError(f"Unsupported message received: {message}")
+
+    print(response)
+    return response
