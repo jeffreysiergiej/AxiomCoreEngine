@@ -1,4 +1,5 @@
-import io, sys
+import io
+import sys
 from src.axiomcore.protocol_handler import handle_qpc
 
 def test_handle_qpc():
