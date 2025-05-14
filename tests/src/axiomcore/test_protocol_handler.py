@@ -10,4 +10,4 @@ def test_handle_qpc():
 
     output = captured_output.getvalue()
     if "PONG" not in output and output.strip() == "":
-        raise AssertionError("Expected output missing from handle_qpc") 
+        raise AssertionError("Expected output missing from handle_qpc")
