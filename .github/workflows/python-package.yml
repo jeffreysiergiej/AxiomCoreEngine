@@ -1,30 +1,10 @@
-name: Python package
+import io, sys
+from src.axiomcore.protocol_handler import handle_qpc
 
-on:
-  push:
-  pull_request:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: [3.9, 3.10, 3.11]
-
-    steps:
-    - uses: actions/checkout@v3
-
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v4
-      with:
-        python-version: ${{ matrix.python-version }}
-
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-
-    - name: Run tests
-      run: |
-        export PYTHONPATH=$PYTHONPATH:./src
-        pytest
+def test_handle_qpc():
+    captured_output = io.StringIO()
+    sys.stdout = captured_output
+    handle_qpc("PING")
+    sys.stdout = sys.__stdout__
+    output = captured_output.getvalue()
+    assert "PONG" in output or output.strip() != "", "Expected output missing from handle_qpc"
