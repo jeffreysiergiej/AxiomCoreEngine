@@ -17,5 +17,6 @@ setup(
         "ipython",
         "pytest",
         "bandit",
+        "python-dotenv",
     ],
 )
