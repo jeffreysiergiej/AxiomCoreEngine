@@ -9,3 +9,7 @@ def test_handle_qpc():
     sys.stdout = sys.__stdout__
     output = captured_output.getvalue()
     assert "PONG" in output or output.strip() != "", "Expected output missing from handle_qpc"
+    - name: Run tests
+      run: |
+        export PYTHONPATH=$PYTHONPATH:./src
+        pytest
