@@ -1,3 +1,10 @@
+from dotenv import load_dotenv
+import os
+
+def load_environment():
+    load_dotenv()
+    print("PYTHONPATH is set to:", os.getenv("PYTHONPATH"))
+
 def handle_qpc(message):
     """Respond to basic QPC protocol messages."""
     if not isinstance(message, str):
@@ -7,10 +14,9 @@ def handle_qpc(message):
 
     if message.upper() == "PING":
         response = "PONG"
-    elif message.upper() == "STATUS":
-        response = "ALIVE"
+        elif message.upper() == "STATUS":
+        response = "CORE STABLE"
     else:
-        raise ValueError(f"Unsupported message received: {message}")
+        response = "UNKNOWN COMMAND"
 
-    print(response)
     return response
