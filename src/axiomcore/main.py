@@ -28,3 +28,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+from system_health_logger import run_health_daemon
+import threading
+
+# Launch background system health logging
+health_thread = threading.Thread(target=run_health_daemon, daemon=True)
+health_thread.start()
