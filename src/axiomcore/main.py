@@ -1,6 +1,5 @@
 from qpu_interface import receive_memory_dump
-
-from dotenv import import load_dotenv
+from dotenv import load_dotenv
 load_dotenv()
 
 import os
@@ -12,10 +11,10 @@ from auto_commit_logger import start_commit_loop
 
 def main():
     print("=== AxiomCoreEngine Boot ===")
-    
+
     # Launch Genesis daemon
     genesis_daemon()
-    
+
     # Initialize memory core
     mem = RLQMemoryModel()
     mem.update("anchor_event", {"score": 0.92, "timestamp": 123456789})
