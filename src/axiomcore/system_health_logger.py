@@ -30,3 +30,9 @@ def log_system_health(output_path=None, as_json=True):
     if output_path:
         with open(output_path, 'a') as f:
             f.write(output + "\n")
+
+# Optional interval-based daemon for background logging
+def run_health_daemon(interval=300):
+    while True:
+        log_system_health(output_path="system_health.log", as_json=True)
+        time.sleep(interval)
