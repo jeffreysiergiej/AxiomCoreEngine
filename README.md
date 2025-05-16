@@ -99,3 +99,20 @@ Full publication set: Figshare Series Index
 
 “This system grows, adapts, and computes as a living lattice –
 not because it mimics nature, but because it is structured like nature.”
+
+---
+
+## Phase 2: Expansion Layer Upgrade
+
+This engine now supports **dynamic task expansion**, allowing new Python functions to be learned and executed at runtime.
+
+Key modules:
+- `axiom_task_memory.json` – Dynamic task registry
+- `task_learner.py` – Learns and stores new functions
+- `task_guard.py` – Validates code before execution
+- `task_dispatcher.py` – Updated to handle dynamic logic dispatch
+
+For full usage examples and security considerations, see:
+[`README_upgrade.md`](./src/axiomcore/README_upgrade.md)
+
+---
