@@ -45,3 +45,6 @@ from .task_dispatcher import dispatch_task
 if __name__ == "__main__":
     dispatch_task("greet_user", name="Operator")
     dispatch_task("system_health_check")
+
+from task_loader import run_startup_tasks
+run_startup_tasks()
