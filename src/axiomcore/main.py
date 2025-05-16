@@ -48,3 +48,13 @@ if __name__ == "__main__":
 
 from task_loader import run_startup_tasks
 run_startup_tasks()
+
+import atexit
+import os
+
+def auto_push():
+    os.system("git add .")
+    os.system("git commit -m 'Auto-save from Colab session'")
+    os.system("git push origin main")
+
+atexit.register(auto_push)
