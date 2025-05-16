@@ -3,14 +3,21 @@ from dotenv import load_dotenv
 load_dotenv()
 
 import os
-print("PYTHONPATH is set to:", os.getenv("PYTHONPATH"))
-
+import sys
 from genesis_ai import genesis_daemon
 from rlq_memory_model import RLQMemoryModel
 from auto_commit_logger import start_commit_loop
+from system_health_logger import run_health_daemon
+import threading
+
+# Setup unified runtime log
+log_path = "system_runtime.log"
+sys.stdout = open(log_path, "a")
+sys.stderr = sys.stdout
 
 def main():
     print("=== AxiomCoreEngine Boot ===")
+    print("PYTHONPATH is set to:", os.getenv("PYTHONPATH"))
 
     # Launch Genesis daemon
     genesis_daemon()
@@ -27,10 +34,9 @@ def main():
     start_commit_loop()
 
 if __name__ == "__main__":
-    main()
-from system_health_logger import run_health_daemon
-import threading
+    # Start system health monitoring in background
+    health_thread = threading.Thread(target=run_health_daemon, daemon=True)
+    health_thread.start()
 
-# Launch background system health logging
-health_thread = threading.Thread(target=run_health_daemon, daemon=True)
-health_thread.start()
+    # Boot main runtime
+    main()
