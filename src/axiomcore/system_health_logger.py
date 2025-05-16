@@ -36,3 +36,15 @@ def run_health_daemon(interval=300):
     while True:
         log_system_health(output_path="system_health.log", as_json=True)
         time.sleep(interval)
+import psutil
+import datetime
+
+def log_system_health():
+    stats = {
+        "timestamp": datetime.datetime.now().isoformat(),
+        "cpu_percent": psutil.cpu_percent(),
+        "memory_percent": psutil.virtual_memory().percent,
+        "disk_usage": psutil.disk_usage("/").percent
+    }
+    print("System Health:", stats)
+    return stats
