@@ -3,12 +3,22 @@
     "description": "Logs disk, CPU, and memory stats.",
     "function": "log_system_health",
     "module": "system_health_logger",
-    "verified": true
+    "verified": true,
+    "tags": ["monitor", "system"],
+    "trigger": {
+      "on_startup": true,
+      "interval": 300,
+      "on_condition": "cpu_percent > 90"
+    }
   },
   "greet_user": {
     "description": "Prints a welcome message.",
     "function": "greet_user",
     "module": "core_utils",
-    "verified": true
+    "verified": true,
+    "tags": ["intro", "UI"],
+    "trigger": {
+      "on_startup": true
+    }
   }
 }
