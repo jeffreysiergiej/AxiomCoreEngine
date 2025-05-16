@@ -1,0 +1,14 @@
+{
+  "system_health_check": {
+    "description": "Logs disk, CPU, and memory stats.",
+    "function": "log_system_health",
+    "module": "system_health_logger",
+    "verified": true
+  },
+  "greet_user": {
+    "description": "Prints a welcome message.",
+    "function": "greet_user",
+    "module": "core_utils",
+    "verified": true
+  }
+}
