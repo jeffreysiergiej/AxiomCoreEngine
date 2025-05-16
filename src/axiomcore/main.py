@@ -40,3 +40,8 @@ if __name__ == "__main__":
 
     # Boot main runtime
     main()
+from .task_dispatcher import dispatch_task
+
+if __name__ == "__main__":
+    dispatch_task("greet_user", name="Operator")
+    dispatch_task("system_health_check")
